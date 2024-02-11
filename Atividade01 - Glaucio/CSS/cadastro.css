@@ -11,7 +11,15 @@ h1 {
     font-size: 2.5rem;
     font-weight: 600;
     letter-spacing: 4px;
+    cursor: pointer;
+    transition: all 0.6s linear;
 } 
+
+h1:hover {
+    letter-spacing: 6px;
+    font-weight: 700;
+}
+
 label {
     position: relative;
     top: 3rem;
@@ -23,12 +31,29 @@ input {
     border: none;
     border-radius: 0.18rem;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.582);
-    
+    transition: all 0.4s linear;
     
 }
 
 input:hover {
-    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.651);
-    width: 10rem;
+    box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.651);
     
+    
+}
+
+button {
+    padding: 1rem 1.5rem;
+    border-radius: 9px;
+    border: none;
+    background-color: #017ffa;
+    color: #fafbfd;
+    font-weight: 700;
+    letter-spacing: 1px;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.582);
+    transition: all 0.4s linear;
+}
+
+button:hover {
+    box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.651);
 }

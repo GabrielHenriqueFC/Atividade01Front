@@ -10,8 +10,8 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #141d52;
-    color: rgb(233, 231, 231);
+    background-color: #0b1741;
+    color: #fafbfd;
     font-family: "Poppins", sans-serif;
 
 }
